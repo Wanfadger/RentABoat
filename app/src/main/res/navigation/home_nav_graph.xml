@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation android:id="@+id/home_navigation_graph"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/boatListFragment">
+    <fragment
+    android:id="@+id/boatListFragment"
+    android:name="com.wanfadger.rentaboat.home.BoatListFragment"
+    android:label="fragment_boat_list"
+    tools:layout="@layout/fragment_boat_list" />
+<fragment
+    android:id="@+id/ordersFragment"
+    android:name="com.wanfadger.rentaboat.home.OrdersFragment"
+    android:label="fragment_orders"
+    tools:layout="@layout/fragment_orders" />
+</navigation>
